@@ -1,0 +1,9 @@
+QUESTION 3B:
+-----------
+
+b. To connect the tables in the given database, we need to identify the common columns between them. Here are the common columns between the tables:
+
+The "rfamseq_acc" column in the "rfamseq" table and the "rfamseq_acc" column in the "rfam" table.
+The "ncbi_id" column in the "taxonomy" table and the "ncbi_id" column in the "rfamseq" table.
+The "rfam_acc" column in the "rfamseq" table and the "rfam_acc" column in the "rfam" table.
+We can use these columns to join the tables and extract the relevant information from them.

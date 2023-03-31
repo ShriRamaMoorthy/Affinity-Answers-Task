@@ -1,0 +1,20 @@
+CODE:
+-----
+
+#!/bin/bash
+
+# Download the file
+curl -O https://www.amfiindia.com/spages/NAVAll.txt
+
+# Extract Scheme Name and Asset Value fields
+cat NAVAll.txt | cut -d ';' -f 4,5 | sed '1d' > output.csv
+
+echo "Output saved in output.csv"
+
+
+
+
+EXPLANATION:
+-----------
+
+The script uses curl to download the file from the given URL, then uses cut to extract the Scheme Name and Asset Value fields from the file using semicolon (;) as the delimiter, and finally uses sed to remove the header row. The output is then saved in a CSV file named "output.csv"

@@ -1,0 +1,12 @@
+QUESTION 3A:
+------------
+
+SELECT COUNT(*) AS tiger_types, ncbi_id
+FROM taxonomy
+WHERE species LIKE '%tiger%'
+AND genus = 'Panthera'
+AND species = 'tigris'
+GROUP BY ncbi_id;
+
+
+The above query will return the number of tiger types as well as the "ncbi_id" of the Sumatran Tiger, which is 58136.
