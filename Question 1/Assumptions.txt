@@ -1,0 +1,9 @@
+Assumptions:
+------------
+
+The input file containing tweets is a plain text file where each tweet is on a separate line.
+The racial slurs provided are in lowercase and any tweet containing uppercase versions of the same slurs will not be detected as profane.
+The degree of profanity is calculated by dividing the count of racial slurs in the tweet by the total number of words in the tweet.
+Tweets with no racial slurs will have a degree of profanity of 0.
+
+This program reads in a file containing tweets, processes each tweet, and calculates the degree of profanity for each tweet using a set of provided racial slurs. The program then outputs the tweet and its degree of profanity.
