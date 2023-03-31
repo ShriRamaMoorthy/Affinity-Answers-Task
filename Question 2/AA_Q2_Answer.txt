@@ -1,10 +1,15 @@
 QUESTION 2
 
-One interesting data set that I discovered recently is the "The Global Database of Events, Language, and Tone (GDELT)" dataset, which is maintained by the GDELT Project while I was looking out for different dataset to begin with for my project work.
+One interesting data set that I discovered recently is the "The Global Database of Events, Language, and Tone (GDELT)" dataset, 
+which is maintained by the GDELT Project while I was looking out for different dataset to begin with for my project work.
 
 The GDELT dataset is a free, open-source database that contains over 4 billion events, covering the period from January 1979 to the present. 
 The dataset covers a wide aspects of global events, including conflicts, protests, economic issues, and natural disasters.
 
-The reason why I find the GDELT dataset interesting is because of its comprehensive coverage of global events and its potential applications in fields such as international relations, political science, and journalism. The dataset can be used to study patterns and trends in global events over time, as well as to identify and analyze the causes and effects of specific events.
+The reason why I find the GDELT dataset interesting is because of its comprehensive coverage of global events and its potential applications in fields such as *international relations, 
+*political science, 
+*journalism. 
+The dataset can be used to study patterns and trends in global events over time, as well as to identify and analyze the causes and effects of specific events.
 
-The GDELT dataset is also continuously updated, making it a valuable resource for real-time monitoring and analysis of global events. It is available for free download in various formats, including CSV, SQL, and JSON, and can be accessed through the GDELT Project's website.
+The GDELT dataset is also continuously updated, making it a valuable resource for real-time monitoring and analysis of global events. 
+It is available for free download in various formats, including CSV, SQL, and JSON, and can be accessed through the GDELT Project's website.
